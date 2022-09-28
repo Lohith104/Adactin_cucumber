@@ -1,0 +1,364 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "move to Sign in Page",
+        "description": "",
+        "id": "automation-practice-add-to-cart;move-to-sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15760525900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Lunch the url of Automation Practice",
+            "match": {
+              "location": "Ap_CucumPOM.lunch_the_url_of_Automation_Practice()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19320912000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click the signin nutton",
+            "match": {
+              "location": "Ap_CucumPOM.user_click_the_signin_nutton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Sign In Page",
+        "description": "",
+        "id": "automation-practice-add-to-cart;sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 113474100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Enter The Valid User name",
+            "match": {
+              "location": "Ap_CucumPOM.user_Enter_The_Valid_User_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128414800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Enter The Valid Password",
+            "match": {
+              "location": "Ap_CucumPOM.user_Enter_The_Valid_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16390048700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click The SignIn Button And Page Navigat\u0027s To My Account Page",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_The_SignIn_Button_And_Page_Navigat_s_To_My_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@SignIn"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "My Account Page",
+        "description": "",
+        "id": "automation-practice-add-to-cart;my-account-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14831808100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Click on Women and Page Navigate to Womens page",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_on_Women_and_Page_Navigate_to_Womens_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@MyAccount"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Select a Dress",
+        "description": "",
+        "id": "automation-practice-add-to-cart;select-a-dress",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4246392600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Choose a Dress And Move over",
+            "match": {
+              "location": "Ap_CucumPOM.choose_a_Dress_And_Move_over()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5075741200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click On Add To cart Button And Page Navigate to Successfully added page",
+            "match": {
+              "location": "Ap_CucumPOM.click_On_Add_To_cart_Button_And_Page_Navigate_to_Successfully_added_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@Women\u0027sDress"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Proceed to Checkout",
+        "description": "",
+        "id": "automation-practice-add-to-cart;proceed-to-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5902198600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Click on the Checkout Button And Page Navigate Cart Summary",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_on_the_Checkout_Button_And_Page_Navigate_Cart_Summary()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@ProceedtoCheckout"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Shopping Cart Summary",
+        "description": "",
+        "id": "automation-practice-add-to-cart;shopping-cart-summary",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 201350600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Click the Add Button For Quantity",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_the_Add_Button_For_Quantity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10486845900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Click the Checkout Button and Page Navigate to Address",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_the_Checkout_Button_and_Page_Navigate_to_Address()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@CartSummary"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Address Page",
+        "description": "",
+        "id": "automation-practice-add-to-cart;address-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11866242100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user click the checkout Button and Navigates to Shipping Page",
+            "match": {
+              "location": "Ap_CucumPOM.user_click_the_checkout_Button_and_Navigates_to_Shipping_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@Address"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Shipping Page",
+        "description": "",
+        "id": "automation-practice-add-to-cart;shipping-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167633200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User Click The Terms Of Service Check Button",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_The_Terms_Of_Service_Check_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10943006800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Click the Checkout Button and Page Navigate to Payement Page",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_the_Checkout_Button_and_Page_Navigate_to_Payement_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 38,
+            "name": "@Shipping"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Payement Page",
+        "description": "",
+        "id": "automation-practice-add-to-cart;payement-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9815526700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Click The Pay by Check and Page Navigate to Order Summary Page",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_The_Pay_by_Check_and_Page_Navigate_to_Order_Summary_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@Payment"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Order Summary",
+        "description": "",
+        "id": "automation-practice-add-to-cart;order-summary",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18516863600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User Click the confrim  Button and page navigate to Order confirmation and message is displayed",
+            "match": {
+              "location": "Ap_CucumPOM.user_Click_the_confrim_Button_and_page_navigate_to_Order_confirmation_and_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 47,
+            "name": "@orderSummary"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice Add To cart",
+    "description": "",
+    "id": "automation-practice-add-to-cart",
+    "keyword": "Feature",
+    "uri": "Ap_cucumPom.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AutomationPractice"
+      }
+    ]
+  }
+]
