@@ -20,12 +20,12 @@ public class Runner_class extends Regular_methods {
 		WebElement element2 = driver.findElement(By.id("nav-search-submit-button"));
 		clickelement(element2);
 		WebElement element3 = driver.findElement(By.xpath("//a[text()='Mobiles']"));
-		Actions("movetoelement", element3, null);
-		Actions("Contextclick", element3, null);
+		Actions("movetoelement", element3);
+		Actions("Contextclick", element3);
 		Robotclass();
 		windowhandles();
 		navigateto("https://letcode.in/test");
-		scrollup_down("bypointsup");
+		scrollup_down("bypointsup","200");
 		WebElement button = driver.findElement(By.xpath("//a[text()='Toggle']"));
 		text(button);
 		clickelement(button);
@@ -62,7 +62,7 @@ public class Runner_class extends Regular_methods {
 	WebElement drag = driver.findElement(By.id("draggable"));
 	WebElement drop1 = driver.findElement(By.id("droppable"));
 	draganddrop( drag, drop1);
-	Actions("clickandhold", drag, drop1);
+	Actions("clickandhold", drag);
 	navigateto("https://letcode.in/frame");
 	WebElement element4 = driver.findElement(By.id("firstFr"));
 	frames("element", element4);
